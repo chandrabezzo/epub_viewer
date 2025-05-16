@@ -1,4 +1,4 @@
-import 'package:flutter_epub_viewer/flutter_epub_viewer.dart';
+import 'package:flutter_epub_reader/flutter_epub_reader.dart';
 import 'package:example/chapter_drawer.dart';
 import 'package:example/search_page.dart';
 import 'package:flutter/material.dart';
@@ -119,20 +119,20 @@ class _MyHomePageState extends State<MyHomePage> {
                     });
                   },
                   onEpubLoaded: () async {
-                    print('Epub loaded');
+                    debugPrint('Epub loaded');
                   },
                   onRelocated: (value) {
-                    print("Reloacted to $value");
+                    debugPrint("Reloacted to $value");
                     setState(() {
                       progress = value.progress;
                     });
                   },
                   onAnnotationClicked: (cfi) {
-                    print("Annotation clicked $cfi");
+                    debugPrint("Annotation clicked $cfi");
                   },
                   onTextSelected: (epubTextSelection) {
                     textSelectionCfi = epubTextSelection.selectionCfi;
-                    print(textSelectionCfi);
+                    debugPrint(textSelectionCfi);
                   },
                 ),
                 Visibility(
