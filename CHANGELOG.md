@@ -1,3 +1,6 @@
+## 1.3.1
+- Fixed local asset path
+
 ## 1.3.0
 - Fixed book loading issues
 - Fixed font size adjust issues
