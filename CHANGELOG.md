@@ -1,4 +1,4 @@
-## 1.2.1
+## 1.3.0
 - Fixed book loading issues
 - Fixed font size adjust issues
 - Added change theme function

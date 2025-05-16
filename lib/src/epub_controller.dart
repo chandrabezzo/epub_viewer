@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:flutter_epub_viewer/src/helper.dart';
-import 'package:flutter_epub_viewer/src/utils.dart';
+import 'package:flutter_epub_reader/src/helper.dart';
+import 'package:flutter_epub_reader/src/utils.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 
 import 'clear_storage_type.dart';

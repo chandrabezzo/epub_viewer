@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_epub_viewer/flutter_epub_viewer.dart';
+import 'package:flutter_epub_reader/flutter_epub_reader.dart';
 import 'search_page.dart';
 import 'chapter_drawer.dart';
 

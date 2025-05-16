@@ -1,4 +1,4 @@
-library epub_viewer;
+library flutter_epub_reader;
 
 export 'src/epub_viewer.dart';
 export 'src/epub_controller.dart';

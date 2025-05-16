@@ -1,13 +1,13 @@
 import 'dart:async';
 import 'dart:io';
 
+import 'package:flutter_epub_reader/src/epub_controller.dart';
+import 'package:flutter_epub_reader/src/helper.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_epub_viewer/src/epub_controller.dart';
-import 'package:flutter_epub_viewer/src/helper.dart';
-import 'package:flutter_epub_viewer/src/utils.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
+import 'package:flutter_epub_reader/src/utils.dart';
 
 class EpubViewer extends StatefulWidget {
   const EpubViewer({

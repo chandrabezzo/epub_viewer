@@ -1,4 +1,4 @@
-import 'package:flutter_epub_viewer/flutter_epub_viewer.dart';
+import 'package:flutter_epub_reader/flutter_epub_reader.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
 
