@@ -11,7 +11,7 @@ A Flutter package for viewing Epub documents, developed by combining the power o
 - Custom context menus for selection
 - Load from File, URl, Assets
 
-<img width='50%' src="https://github.com/fayis672/epub_viewer/blob/main/example/epub_viewr_exp.gif?raw=true">
+<img width='50%' src="https://github.com/chandrabezzo/epub_viewer/blob/main/example/epub_viewr_exp.gif?raw=true">
 
 ## Limitations
 
@@ -22,7 +22,7 @@ A Flutter package for viewing Epub documents, developed by combining the power o
 In your Flutter project add the dependency:
 
 ```shell
-flutter pub add flutter_epub_viewer
+flutter pub add flutter_epub_reader
 ```
 
 - ### Important: Complete the platfrom-wise setup from [here](https://inappwebview.dev/docs/intro)
@@ -35,7 +35,7 @@ Make sure to follow and complete each step
 ### Basic usage
 
 ```dart
-import 'package:flutter_epub_viewer/flutter_epub_viewer.dart';
+import 'package:flutter_epub_reader/flutter_epub_reader.dart';
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatefulWidget {

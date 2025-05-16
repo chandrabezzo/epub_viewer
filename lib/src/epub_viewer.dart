@@ -344,7 +344,7 @@ class _EpubViewerState extends State<EpubViewer> with WidgetsBindingObserver {
       contextMenu: widget.selectionContextMenu,
       key: webViewKey,
       initialFile:
-          'packages/flutter_epub_viewer/lib/assets/webpage/html/swipe.html',
+          'packages/flutter_epub_reader/lib/assets/webpage/html/swipe.html',
       initialSettings: settings
         ..disableVerticalScroll = widget.displaySettings?.snap ?? false
         ..disableHorizontalScroll =
