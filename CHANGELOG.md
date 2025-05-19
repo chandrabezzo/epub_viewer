@@ -1,3 +1,6 @@
+## 1.3.2
+- Fixed width and height size
+
 ## 1.3.1
 - Fixed local asset path
 
