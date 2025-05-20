@@ -1,3 +1,6 @@
+## 1.3.4
+- [Bug fix] Epub reader is shifted down
+
 ## 1.3.3
 - Revert Fixed width and height size
   
